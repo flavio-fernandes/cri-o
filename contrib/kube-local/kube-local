@@ -414,7 +414,7 @@ function update_kernel_params() {
         ${SUDO_BIN} "${REBOOT_BIN}"
     fi
 
-    question_with_answer_yes_no "The system must be rebooted. [\e[1m\e[1mReboot NOW?\e[0m]"
+    question_with_answer_yes_no "The system must be rebooted. This will cause the system to reboot and you will need to invoke this tool again. [\e[1m\e[1mReboot NOW?\e[0m]"
     case ${yn} in
         [yes]*)
 	    print_msg "INFO_NEWLINE" "Rebooting..."
