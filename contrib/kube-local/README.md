@@ -25,7 +25,7 @@
     + [Additional info for the cluster](#additional-info-for-the-cluster)
 
 ## About
-kube-local is a build tool helper based on [local-up-cluster.sh](https://github.com/kubernetes/kubernetes/blob/master/hack/local-up-cluster.sh). It helps developers set their local Kubernetes environment as tradicional installer or automated.
+kube-local is a build tool helper based on [local-up-cluster.sh](https://github.com/kubernetes/kubernetes/blob/master/hack/local-up-cluster.sh). It helps developers set their local Kubernetes environment as traditional installer or automated.
 
 **Use cases**:
    - Setup development environment
